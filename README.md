@@ -10,7 +10,7 @@
 
 ### 1. System PATH and `.dll` Configuration
 
-The `add-sshkeys.cmd` script will automatically add the PIV Tool to your system's PATH.    
+The `add-ssh.ps1` script will automatically add the PIV Tool to your system's PATH.    
 Another option is to add getopt.dll, key.pem, libcrypto-1_1-x64.dll, libykcs11.dll, libykpiv.dll to C:\Windows\System32\OpenSSH
 
 ### 2. SSH Configuration
