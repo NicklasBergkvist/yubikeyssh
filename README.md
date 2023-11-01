@@ -5,6 +5,7 @@
 
 1. **Yubico PIV Tool Installation**: Ensure the Yubico PIV Tool is installed on your machine.
 2. **YubiKey**: Your YubiKey should be inserted into a USB slot.
+3. **OpenSSH**: Make sure OpenSSH is installed.
 
 ## Configuration & Setup
 
