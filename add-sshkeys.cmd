@@ -1,6 +1,11 @@
 @echo off
 setlocal
 
+:: Add PIV Tool to PATH
+$envPath = [System.Environment]::GetEnvironmentVariable("PATH", "Machine")
+$newPath = $envPath + ";C:\Program Files\Yubico\Yubico PIV Tool\bin\"
+[System.Environment]::SetEnvironmentVariable("PATH", $newPath, "Machine")
+
 :: Define a temporary folder
 set tempfolder=c:\temp\
 mkdir %tempfolder%
